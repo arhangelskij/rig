@@ -40,6 +40,8 @@ pub struct Agent<M: CompletionModel> {
     pub name: Option<String>,
     /// Completion model (e.g.: OpenAI's gpt-3.5-turbo-1106, Cohere's command-r)
     pub model: M,
+    /// Agent name (used in logging and agent-as-tool)
+    pub name: Option<String>,
     /// System prompt
     pub preamble: String,
     /// Context documents always available to the agent
