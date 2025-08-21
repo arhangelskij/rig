@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.18.3](https://github.com/0xPlaygrounds/rig/compare/rig-core-v0.18.2...rig-core-v0.18.3) - 2025-08-21
+
+### Other
+
+- Remove duplicate methods in perplexity ([#725](https://github.com/0xPlaygrounds/rig/pull/725))
+
 ## [0.18.2](https://github.com/0xPlaygrounds/rig/compare/rig-core-v0.18.1...rig-core-v0.18.2) - 2025-08-20
 
 ### Fixed
